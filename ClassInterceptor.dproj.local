@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/11/11 08:15:06.000.160,=C:\Users\equip\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/15 12:32:52.000.625,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/16 15:09:05.000.226,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/11/19 18:45:30.000.779,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/01/07 10:17:57.000.432,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/01/07 10:35:11.000.146,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/04/29 16:40:35.000.788,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/05/09 10:32:43.000.650,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/05/19 10:17:39.000.815,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/14 18:57:23.000.317,=C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2022/06/14 19:14:07.000.181,C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.dfm=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\frmMain.dfm</Transaction>
+    <Transaction>2022/06/14 19:14:07.000.181,C:\Users\julio\Documents\Embarcadero\Studio\Projects\Unit3.pas=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\frmMain.pas</Transaction>
+    <Transaction>2022/06/14 19:14:16.000.786,C:\Users\julio\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\ClassInterceptor.dproj</Transaction>
+    <Transaction>2022/06/14 19:15:54.000.732,=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 19:16:25.000.428,C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Unit1.pas=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Interceptor.Edit.pas</Transaction>
+    <Transaction>2022/06/14 20:05:26.126,C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Interceptor.Edit.pas=</Transaction>
+    <Transaction>2022/06/14 20:07:53.139,=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Interceptor.Edit.pas</Transaction>
+    <Transaction>2022/06/15 09:18:49.808,C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Interceptor.Edit.pas=</Transaction>
+    <Transaction>2022/06/15 09:19:22.431,=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Unit1.pas</Transaction>
+    <Transaction>2022/06/15 09:19:42.974,C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Interceptor.Edit.pas=C:\Treinamentos\Intensive Delphi 2022\Class Interceptor\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android64="RQ8N6025CKZ"/>
+	</ActiveMobileDevice>
+</BorlandProject>

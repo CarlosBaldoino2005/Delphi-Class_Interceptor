@@ -1,0 +1,70 @@
+unit Interceptor.Edit;
+
+interface
+uses
+  Vcl.StdCtrls, Vcl.ExtCtrls, System.Classes;
+
+type
+  TEdit = class(Vcl.StdCtrls.TEdit)
+  private
+    FShape : TShape;
+  protected
+    procedure Loaded; override;
+    procedure DoEnter; override;
+    procedure DoExit; override;
+  public
+    constructor Create(AOwner : TComponent); override;
+
+  end;
+implementation
+
+uses
+  Vcl.Forms, Vcl.Controls, System.SysUtils, Vcl.Graphics;
+
+{ TEdit }
+
+constructor TEdit.Create(AOwner: TComponent);
+begin
+  inherited;
+  FShape := TShape.Create(Self);
+end;
+
+procedure TEdit.DoEnter;
+begin
+  inherited;
+  Self.Brush.Color := clBlue;
+  Self.Brush.Color := clMenu;
+  FShape.Brush.Color := Self.Brush.Color;
+end;
+
+procedure TEdit.DoExit;
+begin
+  inherited;
+  Self.Brush.Color := clWindow;
+  FShape.Brush.Color := Self.Brush.Color;
+
+end;
+
+procedure TEdit.Loaded;
+begin
+  inherited;
+  Self.BorderStyle := bsNone;
+  Self.Height := Self.Height - 4;
+  Self.Width := Self.Width - 4;
+  FShape.Name := Format('Shape%s', [self.name]);
+  FShape.Parent := Self.Parent;
+  FShape.Top := Self.Top - 4;
+  FShape.Left := Self.Left - 4;
+  FShape.Width := Self.Width + 7;
+  FShape.Height := Self.Height + 5;
+  FShape.Align := alNone;
+  FShape.Shape := stRoundRect;
+  FShape.Brush.Style := bsSolid;
+  FShape.Brush.Color := clWhite;
+  FShape.Pen.Color := clBlack;
+  FShape.pen.Width := 1;
+  FShape.Visible := Self.Visible;
+  FShape.Enabled := Self.Enabled;
+end;
+
+end.
